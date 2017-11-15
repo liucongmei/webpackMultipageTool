@@ -1,0 +1,210 @@
+*{
+  margin:0;
+  padding:0;
+}
+ul {
+  list-style: none;
+}
+.container{
+  padding-left:0;
+  padding-right:0;
+  width:1200px;
+
+}
+
+.header-top {
+  height:40px;
+  background: #F2F2F2;
+  border-bottom:1px solid #999;
+}
+.header-top .container ul>li{
+  font-size:12px;
+  height: 40px;
+  line-height:40px;
+}
+.header-bottom{
+  margin:5px auto;
+  position:relative;
+}
+.header-bottom .logo{
+  float:left;
+  width:190px;
+  height:100px;
+
+}
+
+.notice{
+  position:absolute;
+  left:9px;
+  top:11px;
+}
+.header-top-1{
+  padding-left:45px;
+}
+.header-top .container{
+  position:relative;
+}
+.header-bottom .logo img{
+  display: block;
+  width:190px;
+  height:100px;
+}
+.header-bottom .input-group{
+  width:700px;
+  float:left;
+  margin-top:20px;
+  padding-left:140px;
+}
+.header-bottom .input-group .form-control{
+  width:382px;height:35px;
+  text-indent:60px;
+  border:1px solid #fe4964;
+  border-radius:0;
+}
+.header-bottom .input-group .selectbox{
+  position:absolute;
+  z-index:6;
+  left:140px;
+  top:12px;
+  font-size:12px;
+  color:red;
+  cursor:pointer;
+}
+.header-bottom .input-group .selectbox .iconfont{
+  font-size:12px;
+  padding-left:3px;
+}
+
+.header-bottom .input-group .selectbox ol{
+  display: none;
+  margin-top:10px;
+  width:60px;
+  height:48px;
+  background: white;
+  z-index: 30;
+  border:1px solid #f0f0f0;
+  text-align: center;
+}
+
+.header-bottom .input-group .selectbox .selected{
+  padding-left:10px;
+}
+.header-bottom .input-group .selectbox ol li{
+  padding-top:5px;
+  height:20px;
+  line-height: 20px;
+  color:#fe4964;
+}
+.header-bottom .selectbox ol li a{
+  color:#fe4964;
+  font-size:12px;
+}
+.header-bottom .input-group  .input-group-addon{
+  width:100px;
+  height:35px;
+  background:#fe4964;
+  border:1px solid #fe4964;
+  color:#fff;
+  letter-spacing:5px;
+  cursor:pointer;
+}
+
+.header-bottom .input-group .tujian{
+  float:left;
+  padding-top:8px;
+
+}
+.header-bottom .input-group .tujian a{
+  float:left;
+  padding-right:8px;
+  color:#999;
+  font-size:14px;
+}
+.header-bottom .newshop{
+  position: absolute;
+  width:100px;
+  height:40px;
+  top:0;
+  left:200px;
+  margin-top:32px;
+  color:#666;
+  text-align: center;
+  line-height: 40px;
+  border-left:1px solid #ccc;
+
+}
+.navbar{
+  min-height:30px;
+  margin-bottom:5px;
+
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background:#f14964;
+}
+.nav > li > a{
+  padding:0;
+}
+
+.navbar-nav{
+  width:1200px;
+  margin:0 ;
+}
+.navbar-nav > li{
+  width:110px;
+  line-height:30px;
+  height:30px;
+  float:left;
+}
+.navbar-static-top{
+  height:30px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  padding-top:0;
+  padding-bottom:0;
+  color:#fff;
+  line-height: 30px;
+  height:30px;
+  display:block;
+  text-align: center;
+  width:110px;
+}
+.navbar .nav .active{
+  background:red;
+}
+
+.active-shop{
+  color:#fd4779 !important;
+}
+
+.container .container-left{
+  z-index:2;
+  position:relative;
+  float:left;
+  height:440px;
+  width:255px;
+  background:rgba(0,0,0,.5);
+  padding:20px 0;
+  color:#fff;
+}
+
+.container .container-left>li{
+  width:255px;
+}
+
+.container-left li{
+  height:40px;
+  line-height:40px;
+  color:#999;
+  padding:0 15px;
+
+}
+.allshops  {
+  display: none;
+}
+.my {
+  width: 260px;
+  height: 100px;
+  background-image:url(../images/ewm.png);
+  background-size:100%;
+}
