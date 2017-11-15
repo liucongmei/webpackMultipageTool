@@ -35,4 +35,4 @@ fonts -> 字体和图标文件、
 
 #说明
 
-默认已经安装jquey 和 bootstrap
+默认已经安装jquery 和 bootstrap
